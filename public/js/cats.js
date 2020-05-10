@@ -11,9 +11,8 @@ function newVid() {
   
     document.getElementById('iframe').src = catArr[Math.floor(Math.random() * 4)];
 
-    document.getElementById("button").onclick = function(){
       document.getElementById("iframe").style.display = "block";
-    }
+
   }
   
   
