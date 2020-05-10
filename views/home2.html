@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,4 +8,77 @@
   <body>
     <a href="/random" method="GET">xyz</a>
   </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROcastination</title>
+    <style>
+         body{
+            background-color: #222831;
+        }
+        @media (max-width:1200px ) { 
+           .img-responsive{
+               visibility: hidden;
+           }
+         }
+        @media (min-width:1630px ) { 
+           .img-responsive{
+               visibility: hidden;
+           }
+         }
+         
+
+         *{
+             margin:0;
+             padding:0;
+         }
+            .img-wrapper {
+            position: relative;
+            padding:0;
+
+            }
+
+            .img-responsive {
+            width: 100%;
+            height:auto;
+            object-fit: cover;
+                margin:0;
+                padding:0;
+            }
+
+            .img-overlay {
+            position: absolute;
+            top: 8.5em;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+
+            }
+
+            .img-overlay:before {
+            content: ' ';
+            display: block;
+            height: 50%;
+            }
+                </style>
+</head>
+<body>
+
+    <div class="img-wrapper">
+        <img class="img-responsive" src="main_img.png">
+        <div class="img-overlay">
+          
+          <a   href="/random" method="GET"><img id="clock"src="clock.png"></a>
+        </div>
+    </div>
+    
+     
+    </a>
+</body>
 </html>

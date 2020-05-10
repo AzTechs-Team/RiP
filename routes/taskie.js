@@ -4,6 +4,7 @@ arrPaths[1] = "/views/fortune-cookies.html";
 arrPaths[2] = "/views/cats.html";
 arrPaths[3] = "/views/task_3.html";
 arrPaths[4] = "/views/quiz.html";
+arrPaths[5] = "/views/task5.html";
 
 const path = require("path");
 const rootDir = require("../utils/path");
