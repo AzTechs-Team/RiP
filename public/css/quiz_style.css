@@ -1,7 +1,6 @@
 body{
-    
     margin:0px;
-    background-color: rgba(194, 194, 250, 0.2);
+    background-color:#222831;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -12,6 +11,7 @@ body{
 
 
 .card {
+    border:1px solid black;
     margin-top: 40px;
     width:100%;
     height: 70vh;
@@ -64,6 +64,7 @@ button:hover{
 }
 
 .card #quiz_card{
+    border: 1px solid black;
     margin-top: 0;
     background-color: #000;
     padding:30px;
