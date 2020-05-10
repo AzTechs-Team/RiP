@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwin</title>
+  </head>
+  <body>
+    <h1>Ashwin</h1>
+    <script>
+      <!--
+      /*
+      Random link button- By JavaScript Kit (http://javascriptkit.com)
+      Over 300+ free scripts!
+      This credit MUST stay intact for use
+      */
+
+      //specify random links below. You can have as many as you want
+      var randomlinks=new Array()
+
+      randomlinks[0]="task_1.html"
+      randomlinks[1]="task_2.html"
+      randomlinks[2]="task_3.html"
+      randomlinks[3]="task_4.html"
+
+      function randomlink(){
+      window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+      }
+      //-->
+    </script>
+    <form method="post">
+      <p>
+        <input
+          type="button"
+          name="B1"
+          value="Random Link >>"
+          onclick="randomlink()"
+        />
+      </p>
+    </form>
+
+    <!--Uncomment below to use a regular text link instead
+      <a href="javascript:randomlink()">Random Link</a>
+      -->
+  </body>
+</html>
