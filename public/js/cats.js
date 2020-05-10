@@ -1,4 +1,3 @@
-<<<<<<< HEAD
  
 document.getElementById("iframe").style.display = "none";
 
@@ -19,21 +18,6 @@ function newVid() {
     document.getElementById('iframe').src = catArr[Math.floor(Math.random() * 10)];
 
       document.getElementById("iframe").style.display = "block";
-=======
-
-document.getElementById("iframe").style.display = "none";
-
-function newVid() {
-    var catArr = [
-        'https://www.youtube.com/embed/mwENYk66q6M',
-      'https://www.youtube.com/embed/7cTMbkH-08Y',
-      'https://www.youtube.com/embed/EtH9Yllzjcc',
-      'https://www.youtube.com/embed/DXUAyRRkI6k'
-    ]
-  
-    document.getElementById('iframe').src = catArr[Math.floor(Math.random() * 4)];
-    document.getElementById("iframe").style.display = "block";
->>>>>>> 3aa19cfca4a3e3b6ee65cc291022bed2732ebb29
 
     var a = document.createElement('a');
     a.href = "http://example.com";
@@ -44,8 +28,4 @@ function newVid() {
     a.appendChild(btn)
   }
   
-<<<<<<< HEAD
   
-=======
-  
->>>>>>> 3aa19cfca4a3e3b6ee65cc291022bed2732ebb29
