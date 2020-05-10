@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Videos</title>
+    <link rel="stylesheet" href="cats.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 
 <body>
     <h1>Here's a cat video for ya!</h1>
 
-    <input type="button" id="button" value="Click Me!" onClick="newVid()"/>
+    <input type="button" class="btn btn-lg btn-warning" id="button" value="Click Me!" onClick="newVid()"/>
 
     <iframe width="560" height="315" id="iframe" src='' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <script src="../public/js/cats.js"></script>
+    <script src="cats.js"></script>
 </body>
 </html>
