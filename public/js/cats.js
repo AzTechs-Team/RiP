@@ -12,7 +12,15 @@ function newVid() {
 
   document.getElementById("iframe").src = catArr[Math.floor(Math.random() * 4)];
 
+<<<<<<< HEAD
   document.getElementById("button").onclick = function () {
     document.getElementById("iframe").style.display = "block";
   };
 }
+=======
+      document.getElementById("iframe").style.display = "block";
+
+  }
+  
+  
+>>>>>>> 7864ad51cfe084234f2b479dd83a73fbd140df0f
