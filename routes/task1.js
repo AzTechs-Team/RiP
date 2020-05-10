@@ -7,7 +7,7 @@ const express = require("express");
 const router = express.Router();
 
 router.use("/random", (req, res, next) => {
-  res.sendFile(path.join(rootDir, "views", "quiz.html"));
+  res.sendFile(path.join(rootDir, "views", "cats.html"));
 });
 
 module.exports = router;
