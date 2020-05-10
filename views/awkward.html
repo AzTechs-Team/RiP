@@ -2,9 +2,14 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <style>
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; margin:0;
+  background-color:#222831;
+    height:100vh;
+      color:white;
+      font-family: 'Raleway', sans-serif;}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -86,6 +91,11 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
+button{
+  padding:7px 12px;
+  margin-bottom: 20px;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -104,10 +114,12 @@ img {vertical-align: middle;}
 </head>
 <body>
 
-<div id="popUpMain">
-	<div id="popup>
-		<h1 id="newHeading"> Here look at some Awkward Family photos </h1>
-	</div>
+<div id="popUpMain" style="display: flex;justify-content: center;align-items: center;
+flex-direction: column;">
+	<div id="popup" >
+		<h1 id="newHeading" > Here look at some Awkward Family photos </h1>
+  </div>
+  <a href="http://example.com" ><button id="btn">Procastinate more</button></a>
 </div>
 
 <div class="slideshow-container">
@@ -208,6 +220,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
 </script>
 
 </body>

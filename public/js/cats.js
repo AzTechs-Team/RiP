@@ -10,9 +10,15 @@ function newVid() {
     ]
   
     document.getElementById('iframe').src = catArr[Math.floor(Math.random() * 4)];
+    document.getElementById("iframe").style.display = "block";
 
-      document.getElementById("iframe").style.display = "block";
-
+    var a = document.createElement('a');
+    a.href = "http://example.com";
+    document.getElementById("btn").appendChild(a);
+    var btn=document.createElement("button");
+    btn.innerHTML="Procastinate more";
+    btn.style.marginTop="30px"
+    a.appendChild(btn)
   }
   
   
